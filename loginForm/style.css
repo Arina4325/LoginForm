@@ -1,0 +1,58 @@
+
+* {
+    margin: 0
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/984/880/original/abstract-colorful-geometric-overlapping-background-and-texture-free-vector.jpg);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#formContainer {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    flex-direction: column;
+    box-shadow: 10px 5px 5px rgb(62, 61, 61);
+    border-radius: 15px;
+}
+    #formContainer #loginForm {
+     border: 1px solid black;
+     border-radius: 15px;
+     padding: 20px;
+     box-shadow: 1px 1px 3px rgb(69, 69, 69)
+    }
+
+        #formContainer #loginForm .formButton {
+            margin-top: 20px;
+            background-color: white;
+            border-radius: 5px;
+        }
+
+        #formContainer #loginForm #next{
+            float: right;
+        }
+
+        #formContainer #loginForm .inputContainer {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10px;
+        }
+        #formContainer #loginForm .inputContainer .loginInputs {
+            border-radius: 5px;
+            border: 1px solid rgb(95, 95, 95);
+            box-shadow: 2px 2px 3px rgb(69, 69, 69)
+        }
+        #formContainer #loginForm .inputContainer .loginLabels {
+            text-shadow: 0.3px 0.3px 1px rgb(69, 69, 69);
+        }

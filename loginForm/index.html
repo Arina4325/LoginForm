@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Doc</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="formContainer">
+        <h2>My Login Form</h2>
+        <form id="loginForm">
+            <div class="inputContainer">
+                <label class="loginLabels" for="name">Name: </label>
+                <input type="text" class="loginInputs" id="name" name="name" placeholder="Write your name">
+            </div>
+            <div class="inputContainer"> 
+                <label class="loginLabels"  for="address">Address: </label>
+                <input type="text" class="loginInputs" id="address" name="address">
+            </div>
+            <div class="inputContainer"> 
+                <label class="loginLabels" for="age">Age: </label>
+                <input type="number" class="loginInputs" id="age" name="age">
+            </div>
+            <div class="inputContainer"> 
+                <label class="loginLabels" for="email">Email: </label>
+                <input type="email" class="loginInputs" id="email" name="email">
+            </div>
+            <div class="inputContainer"> 
+                <label class="loginLabels" for="birthDay">BirthDay: </label>
+                <input type="date" class="loginInputs" id="birthDay" name="birthDay">
+            </div>
+            <button class="formButton" type="reset" id="reset">Reset</button>
+            <button class="formButton" type="submit" id="next">Next</button>
+        </form>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
